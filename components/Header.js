@@ -160,9 +160,9 @@ const Header = () => {
 
   const slidesData = [
     {
-      title: 'Revitalize Wells with Expert Cleaning',
-      subtitle: 'Enhance efficiency and extend reservoir life.',
-      imgSrc: '/images/excella-img1.jpg',
+      title: 'Excella - Empowering Energy Excellence"',
+      subtitle: 'Where innovation meets reliability in oil and gas services. Welcome to a future of excellence.',
+      imgSrc: '/images/excella-img4.jpg',
     },
     {
       title: 'Precision Filtration for Efficiency.',
@@ -175,9 +175,9 @@ const Header = () => {
       imgSrc: '/images/excella-img3.jpg',
     },
     {
-      title: 'Your Header Title 4',
-      subtitle: 'Your header subtitle or description goes here.',
-      imgSrc: '/images/excella-img4.jpg',
+      title: 'Revitalize Wells with Expert Cleaning',
+      subtitle: 'Enhance efficiency and extend reservoir life.',
+      imgSrc: '/images/excella-img1.jpg',
     },
     // Add more slides as needed
   ];
