@@ -9,7 +9,7 @@ import SectionB from '@/components/SectionB';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Excella Energy',
+  title: 'Excella Energy Services',
   description: 'Excella Energy Services',
 }
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <title>Your Next.js App</title>
+        <title>Excella Energy Services</title>
         <meta name="Excella Energy Services" content="Excellence, Quality, Competence" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
