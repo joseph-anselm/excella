@@ -146,18 +146,16 @@
 
 // export default Header;
 
-import React, { useState, useEffect } from 'react';
-import SwiperCore, { Autoplay } from 'swiper';
+import React, { useEffect } from 'react';
+import SwiperCore, { Autoplay } from 'swiper/core';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-SwiperCore.use([Autoplay, Pagination]);
+SwiperCore.use([Autoplay, Navigation, Pagination]);
 
 const Header = () => {
-  const [initialAutoplay, setInitialAutoplay] = useState(true);
-
   const slidesData = [
     {
       title: 'Excella - Energy Excellence',
@@ -183,8 +181,8 @@ const Header = () => {
   ];
 
   useEffect(() => {
-    setInitialAutoplay(false);
-  }, []); // Disable initial autoplay after component mounts
+    // Any initialization logic if needed
+  }, []); 
 
   return (
     <Swiper
@@ -194,7 +192,6 @@ const Header = () => {
       autoplay={{ delay: 3000, disableOnInteraction: false, reverseDirection: false, stopOnLastSlide: false, waitForTransition: true }}
       className="relative h-screen"
       initialSlide={0}
-      
     >
       {slidesData.map((slide, index) => (
         <SwiperSlide
@@ -227,4 +224,3 @@ const Header = () => {
 };
 
 export default Header;
-

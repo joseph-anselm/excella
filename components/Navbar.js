@@ -24,7 +24,7 @@ export default function Navbar() {
               <div className="flex-shrink-0">
                 <img
                   className="h-12 w-auto"
-                  src="/images/eesl-logo-1.png"
+                  src="/images/eesl-logo.png"
                   alt="Your Company"
                 />
               </div>
