@@ -146,31 +146,32 @@
 
 // export default Header;
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import SwiperCore, { Autoplay } from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-
 SwiperCore.use([Autoplay, Pagination]);
 
 const Header = () => {
+  const [initialAutoplay, setInitialAutoplay] = useState(true);
+
   const slidesData = [
     {
-      title: 'Your Header Title 1',
-      subtitle: 'Your header subtitle or description goes here.',
+      title: 'Revitalize Wells with Expert Cleaning',
+      subtitle: 'Enhance efficiency and extend reservoir life.',
       imgSrc: '/images/excella-img1.jpg',
     },
     {
-      title: 'Your Header Title 2',
-      subtitle: 'Your header subtitle or description goes here.',
+      title: 'Precision Filtration for Efficiency.',
+      subtitle: 'Maximize operations with advanced filtration.',
       imgSrc: '/images/excella-img2.jpg',
     },
     {
-      title: 'Your Header Title 3',
-      subtitle: 'Your header subtitle or description goes here.',
+      title: 'Insights Below: Mud Logging Excellence',
+      subtitle: 'Real-time data for informed drilling decisions.',
       imgSrc: '/images/excella-img3.jpg',
     },
     {
@@ -181,13 +182,19 @@ const Header = () => {
     // Add more slides as needed
   ];
 
+  useEffect(() => {
+    setInitialAutoplay(false);
+  }, []); // Disable initial autoplay after component mounts
+
   return (
     <Swiper
       slidesPerView={1}
       pagination={{ clickable: true }}
       loop={true}
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 3000, disableOnInteraction: false, reverseDirection: false, stopOnLastSlide: false, waitForTransition: true }}
       className="relative h-screen"
+      initialSlide={0}
+      
     >
       {slidesData.map((slide, index) => (
         <SwiperSlide
@@ -205,15 +212,14 @@ const Header = () => {
               <p className="text-lg mb-6">{slide.subtitle}</p>
               <div className="flex justify-center space-x-4">
                 <button className="bg-[#7FB000] text-white px-4 py-2 rounded">
-                  CTA Button 1
+                  Get a Quote
                 </button>
                 <button className="bg-white text-[#7FB000] px-4 py-2 rounded">
-                  CTA Button 2
+                  Service Overview
                 </button>
               </div>
             </div>
           </div>
-
         </SwiperSlide>
       ))}
     </Swiper>
@@ -221,3 +227,4 @@ const Header = () => {
 };
 
 export default Header;
+
