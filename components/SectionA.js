@@ -17,9 +17,7 @@ const Section = () => {
             Excella Energy Services
           </h1>
           <p className="text-gray-600 text-lg text-center md:text-left mb-8">
-            Your introductory paragraph text goes here. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+          Welcome to Excela Energy Services Limited (EESL), your premier destination for expert and professional Oil & Gas services. With a wealth of experience, tactical proficiency, and unwavering professionalism, we are strategically positioned to provide a diverse range of top-tier services tailored to meet the unique needs of the oil & gas industries.
           </p>
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             {/* Icon Squares */}
