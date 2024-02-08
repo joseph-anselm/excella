@@ -160,7 +160,7 @@ const Header = () => {
 
   const slidesData = [
     {
-      title: 'Excella - Empowering Energy Excellence"',
+      title: 'Excella - Energy Excellence',
       subtitle: 'Where innovation meets reliability in oil and gas services. Welcome to a future of excellence.',
       imgSrc: '/images/excella-img4.jpg',
     },
