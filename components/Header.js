@@ -147,8 +147,8 @@
 // export default Header;
 
 import React, { useEffect } from 'react';
-import SwiperCore, { Autoplay } from 'swiper/core';
-import { Navigation, Pagination } from 'swiper/modules';
+import SwiperCore from 'swiper/core';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
