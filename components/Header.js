@@ -148,10 +148,12 @@
 
 import React, { useEffect } from 'react';
 import SwiperCore from 'swiper/core';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay, EffectFlip } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { EffectFade, Flip } from 'swiper/modules';
+import 'swiper/css/effect-fade';
 
 SwiperCore.use([Autoplay, Navigation, Pagination]);
 
@@ -189,9 +191,13 @@ const Header = () => {
       slidesPerView={1}
       pagination={{ clickable: true }}
       loop={true}
-      autoplay={{ delay: 3000, disableOnInteraction: false, reverseDirection: false, stopOnLastSlide: false, waitForTransition: true }}
+      autoplay={{ delay: 5000, disableOnInteraction: false, reverseDirection: false, stopOnLastSlide: false, waitForTransition: true }}
       className="relative h-screen"
       initialSlide={0}
+      speed={2000}
+      modules={[EffectFlip]} 
+      effect="flip"
+      
     >
       {slidesData.map((slide, index) => (
         <SwiperSlide
