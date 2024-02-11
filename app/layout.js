@@ -5,7 +5,7 @@ import Header from '@/components/Header'
 import Head from 'next/head';
 import Section from '@/components/SectionA';
 import SectionB from '@/components/SectionB';
-
+import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Excella Energy Services</title>
         <meta name="Excella Energy Services" content="Excellence, Quality, Competence" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <body>
         <Navbar/>
@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         <Section/>
         <SectionB/>
         {children}
+        <Footer/>
       </body>
     </html>
   )
