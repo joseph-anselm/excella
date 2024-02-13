@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>Excella Energy Services</title>
         <meta name="Excella Energy Services" content="Excellence, Quality, Competence" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/images/favicon.png" />
       </Head>
       <body>
         <Navbar/>
