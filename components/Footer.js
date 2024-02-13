@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           
           {/* Social Media Icons */}
-          <div className="flex space-x-4 mt-5">
+          <div className="flex space-x-4 mt-7">
             <a href="#" className="text-white hover:text-[#3b5998]"><FaFacebook size={24} /></a>
             <a href="#" className="text-white hover:text-[#00acee]"><FaTwitter size={24} /></a>
             <a href="#" className="text-white hover:text-[#e4405f]"><FaInstagram size={24} /></a>
