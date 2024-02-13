@@ -41,8 +41,8 @@ const Footer = () => {
         </div>
 
         {/* Column 3 */}
-        <div className="flex flex-col items-center md:w-full md:max-w-sm md:pl-4 md:pr-8">
-          <div className="text-center text-[#7FB000]">
+        <div className="flex flex-col md:w-full md:max-w-sm md:pl-4 md:pr-8">
+          <div className=" text-[#7FB000]">
             <h1 className="text-2xl font-bold mb-2">Submit an Inquiry</h1>
             <form className="w-full">
               {/* Add your form fields here */}
