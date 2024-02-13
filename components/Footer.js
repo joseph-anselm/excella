@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="absolute inset-0 bg-black opacity-80"></div>
       <div className="text-center text-white py-16 relative z-10">
         <h6 className="text-2xl">Get started with us!</h6>
-        <h1 className="text-5xl font-bold mb-2 text-[#7FB000]">Excellence @ Excella Energy Services</h1>
+        <h1 className="text-5xl font-bold mb-2 text-[#7FB000]">Excellence <span className='text-white'>@</span> Excella Energy Services</h1>
       </div>
       <div className="flex flex-col md:flex-row items-stretch justify-center container mx-auto relative z-10 h-full">
         {/* Column 1 */}
