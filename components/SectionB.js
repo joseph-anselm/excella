@@ -24,19 +24,19 @@ const SectionB = () => {
     {
       title: 'Brine Filtration',
       description: 'Excela Energy Services Limited (EESL) is your dedicated partner for top-notch oilfield filtration equipment and services. We focus on delivering clean wellbores, minimizing debris, drilling fluid residue, and solids to enhance overall well productivity.',
-      imageUrl: '/images/card1.jpg',
+      imageUrl: '/images/excella-tools1.jpg',
       link: '#',
     },
     {
       title: 'Well-Bore Cleaning',
       description: 'Persistent wellbore debris poses risks to well integrity and productivity. Our comprehensive solutions address diverse debris types, ensuring a clean wellbore, safeguarding equipment, and minimizing production losses.',
-      imageUrl: '/images/card2.jpg',
+      imageUrl: '/images/excella-tools2.jpg',
       link: '#',
     },
     {
       title: 'Mud-Logging',
       description: 'Mud Logging Excellence: Our advanced units, equipment, and services at EESL adhere to the highest standards, delivering exceptional performance both Onshore and Offshore.',
-      imageUrl: '/images/card3.jpg',
+      imageUrl: '/images/excella-tools3.jpg',
       link: '#',
     },
     {

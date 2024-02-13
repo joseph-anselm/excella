@@ -6,6 +6,7 @@ import Head from 'next/head';
 import Section from '@/components/SectionA';
 import SectionB from '@/components/SectionB';
 import Footer from '@/components/Footer';
+import SectionC from '@/components/SectionC';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Section/>
         <SectionB/>
+        <SectionC/>
         {children}
         <Footer/>
       </body>
