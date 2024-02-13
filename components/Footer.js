@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
       <footer className="relative bg-cover bg-center" style={{ backgroundImage: `url('/images/excella-img2.jpg')`, minHeight: '500px' }}>
-        <div className="absolute inset-0 bg-black opacity-70"></div>
+        <div className="absolute inset-0 bg-black opacity-80"></div>
         <div className="text-center text-white py-16 relative z-10">
         <h6 className="text-2xl">Get started with us!</h6>
           <h1 className="text-5xl font-bold mb-2 text-[#7FB000]">Excellence @ Excella Energy Services</h1>          
@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Column 2 */}
           <div className="flex flex-col items-center mb-8 md:w-full md:max-w-sm md:px-4">
             <div className=" text-white">
-              <h1 className="text-2xl font-bold mb-2">Contact Us</h1>
+              <h1 className="text-2xl text-[#7FB000] font-bold mb-2">Contact Us</h1>
               <p className="text-sm mb-2">Plot 302c Port Harcourt/Aba Road, Port Harcourt, Rivers State</p>
               <p className="text-sm mb-2">Phone: +234 805 5556 632</p>
               <p className="text-sm mb-2">Email: info@excellaenergy.com</p>
