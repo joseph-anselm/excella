@@ -27,7 +27,7 @@ const Footer = () => {
             <p className="text-sm mb-2">Plot 302c Port Harcourt/Aba Road, Port Harcourt, Rivers State</p>
             <p className="text-sm mb-2"><b>Phone:</b> +234 805 5556 632</p>
             <p className="text-sm mb-2"><b>Email:</b> info@excellaenergy.com</p>
-            <p className="text-sm"><b>Website:</b>www.excellaenergy.com</p>
+            <p className="text-sm"><b>Website:</b> www.excellaenergy.com</p>
           </div>
           
           {/* Social Media Icons */}
