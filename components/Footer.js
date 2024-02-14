@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="flex flex-col md:flex-row items-stretch justify-center container mx-auto relative z-10 h-full">
         {/* Column 1 */}
-        <div className="flex flex-col mb-8 md:w-full md:max-w-sm md:pr-4 md:pl-8">
+        <div className="flex flex-col mb-8 md:w-full md:max-w-sm md:pr-4 md:pl-8 m-2">
         <h1 className="text-2xl font-bold mb-2 text-[#7FB000]">Excella Energy Services</h1>
           <img className="h-auto w-[200px] mb-4" src="/images/eesl-logo.png" alt="Excella Energy Services" />
           <div className="text-white">
@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* Column 2 */}
-        <div className="flex flex-col mb-8 md:w-full md:max-w-sm md:px-4">
+        <div className="flex flex-col mb-8 md:w-full md:max-w-sm md:px-4 m-2">
           <div className="text-white">
             <h1 className="text-2xl text-[#7FB000] font-bold mb-2">Contact Us</h1>
             <p className="text-sm mb-2">Plot 302c Port Harcourt/Aba Road, Port Harcourt, Rivers State</p>
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
 
         {/* Column 3 */}
-        <div className="flex flex-col md:w-full md:max-w-sm md:pl-4 md:pr-8">
+        <div className="flex flex-col md:w-full md:max-w-sm md:pl-4 md:pr-8 m-3">
           <div className=" text-[#7FB000]">
             <h1 className="text-2xl font-bold mb-2">Submit an Inquiry</h1>
             <form className="w-full">

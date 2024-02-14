@@ -246,7 +246,7 @@ SwiperCore.use([Autoplay, Navigation, Pagination]);
 const Header = () => {
   const slidesData = [
     {
-      title: 'Excella - Energy Excellence',
+      title: 'Excella: Energy Excellence',
       subtitle: 'Where innovation meets reliability in oil and gas services. Welcome to a future of excellence.',
       imgSrc: '/images/excella-img4.jpg',
     },
@@ -291,7 +291,7 @@ const Header = () => {
         // Wrapping the first word in a span with green color
         const titleWithGreenText = (
           <>
-            <span className="text-[#7FB000]">{words[0]}</span>
+            <span className="text-[#7FB000]">{words[0]} </span>
             {words.slice(1).join(' ')}
           </>
         );
@@ -307,8 +307,8 @@ const Header = () => {
           >
             <div className="absolute inset-0 bg-black opacity-40"></div>
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="text-center text-white">
-                <h1 className="text-6xl font-bold mb-4">{titleWithGreenText}</h1>
+              <div className="text-center text-white px-4">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">{titleWithGreenText}</h1>
                 <p className="text-lg mb-6">{slide.subtitle}</p>
                 <div className="flex justify-center space-x-4">
                   <button className="bg-[#7FB000] text-white px-4 py-2 rounded">
