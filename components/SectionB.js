@@ -42,7 +42,7 @@ const SectionB = () => {
     {
       title: 'Equipments',
       description: 'EESL boasts cutting-edge equipment exceeding client expectations, supported by established global partnerships.',
-      imageUrl: '/images/card4.jpg',
+      imageUrl: '/images/excella-tools4.jpg',
       link: '#',
     },
   ];

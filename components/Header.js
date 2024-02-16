@@ -308,7 +308,7 @@ const Header = () => {
             <div className="absolute inset-0 bg-black opacity-40"></div>
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center text-white px-4">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4">{titleWithGreenText}</h1>
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 ">{titleWithGreenText}</h1>
                 <p className="text-lg mb-6">{slide.subtitle}</p>
                 <div className="flex justify-center space-x-4">
                   <button className="bg-[#7FB000] text-white px-4 py-2 rounded">
