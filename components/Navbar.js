@@ -52,7 +52,7 @@ export default function Navbar() {
                     href={item.href}
                     className={classNames(
                       'font-semibold',
-                      scrolling ? 'text-[#061956] hover:text-green-500' : 'text-white hover:text-[#7FB000]',
+                      scrolling ? 'text-[#061956] hover:text-green-500' : 'text-white hover:text-[#061956]',
                       'px-3 py-2 rounded-md text-sm'
                     )}
                     aria-current={item.current ? 'page' : undefined}
