@@ -1,7 +1,29 @@
+"use client"
+import { useState, useEffect } from 'react';
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
+
+    const [showBackToTop, setShowBackToTop] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      const scrollThreshold = 200;
+      setShowBackToTop(scrollY > scrollThreshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const handleBackToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <footer className="relative bg-cover bg-center" style={{ backgroundImage: `url('/images/excella-img2.jpg')`, minHeight: '500px' }}>
       <div className="absolute inset-0 bg-black opacity-80"></div>
@@ -65,6 +87,40 @@ const Footer = () => {
               <button type="submit" className="bg-[#7FB000] text-white py-2 px-4 w-full rounded">Submit</button>
             </form>
           </div>
+        </div>
+      </div>
+ {showBackToTop && (
+          <div
+            className="fixed bottom-8 right-8 bg-[#7FB000] text-white p-3 rounded-full cursor-pointer z-10"
+            onClick={handleBackToTop}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              className="h-6 w-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M5 10l7-7m0 0l7 7m-7-7v18"
+              />
+            </svg>
+          </div>
+        )}
+
+      <div className="bg-gray-800 text-white text-center py-4 relative z-5">
+        <p>&copy; 2023 Excella Energy Services</p>
+
+        {/* Social Media Icons */}
+        <div className="flex justify-center space-x-4 mt-2">
+          <a href="#" className="text-white hover:text-[#3b5998]"><FaFacebook size={24} /></a>
+          <a href="#" className="text-white hover:text-[#00acee]"><FaTwitter size={24} /></a>
+          <a href="#" className="text-white hover:text-[#e4405f]"><FaInstagram size={24} /></a>
+          <a href="#" className="text-white hover:text-[#0077b5]"><FaLinkedin size={24} /></a>
+          <a href="#" className="text-white hover:text-[#ea4335]"><FaEnvelope size={24} /></a>
         </div>
       </div>
     </footer>
