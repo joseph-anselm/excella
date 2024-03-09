@@ -24,10 +24,7 @@ export default function RootLayout({ children }) {
       </Head>
       <body>
         <Navbar/>
-        <Header />
-        <Section/>
-        <SectionB/>
-        <SectionC/>
+        
         {children}
         <Footer/>
       </body>

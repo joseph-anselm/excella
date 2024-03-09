@@ -1,8 +1,16 @@
-import React from 'react'
-import Navbar from '@/components/Navbar'
+import Image from 'next/image'
+import AboutUsPage from '@/components/About-us/SubHeader'
+import SectionA from '@/components/About-us/SectionA'
+import SectionB from '@/components/About-us/SectionB'
 
-export default function page() {
+export default function Home() {
   return (
-    <div><Navbar/></div>
+    <div>
+        <AboutUsPage />
+        <SectionA />
+        <SectionB />
+
+        
+    </div>
   )
 }
