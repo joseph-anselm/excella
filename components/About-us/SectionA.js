@@ -4,21 +4,21 @@ import React from 'react';
 
 const SectionA = () => {
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 xl:px-32 bg-gray-100">
+    <section className="py-12 px-4 md:px-8 lg:px-16 xl:px-32 bg-gray-100">
       <div className="flex flex-col md:flex-row justify-between items-center container mx-auto">
         {/* Column 1 */}
         <div className="md:w-1/3 p-6">
           <ul className="list-none mb-4">
             <li>
-              <button className="bg-[#061956] text-[#7FB000] py-2 px-4 rounded-md hover:bg-[#7FB000] hover:text-[#061956]">
-                Click Me
-              </button>
+              <span className=" text-[#7FB000] py-2 rounded-md hover:bg-[#7FB000] hover:text-[#061956]  text-xl">
+                -- Our short story
+              </span>
             </li>
           </ul>
           <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#061956]">
-            Our story makes our experience
+          Experience is woven into our story, 
             <br />
-            and we don&apos;t stop at adding values
+            where adding value never stops.
           </h2>
         </div>
 
@@ -32,7 +32,7 @@ const SectionA = () => {
         {/* Column 3 */}
         <div className="md:w-1/3 p-6">
           <p className="text-sm md:text-lg">
-          As a dedicated partner in the Oil & Gas industry, Excella Energy Services Ltd prioritizes excellence, reliability, and innovation. Our unwavering commitment to providing top-tier solutions distinguishes us as a trusted service provider in the Nigerian energy landscape. For unparalleled oil and gas field services, choose Excella Energy Services Ltd - your trusted partner for excellence in the industry.
+            As a dedicated partner in the Oil & Gas industry, Excella Energy Services Ltd prioritizes excellence, reliability, and innovation. Our unwavering commitment to providing top-tier solutions distinguishes us as a trusted service provider in the Nigerian energy landscape. For unparalleled oil and gas field services, choose Excella Energy Services Ltd - your trusted partner for excellence in the industry.
           </p>
         </div>
       </div>
