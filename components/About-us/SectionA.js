@@ -18,7 +18,7 @@ const SectionA = () => {
           <h2 className="text-2xl md:text-4xl font-bold mb-4 text-[#061956]">
             Our story makes our experience
             <br />
-            and we don't stop at adding values
+            and we don&apos;t stop at adding values
           </h2>
         </div>
 
