@@ -68,7 +68,7 @@ export default function Navbar() {
                     scrolling ? 'bg-green-500 text-white' : 'bg-[#7FB000] text-white'
                   } hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800`}
                 >
-                  Contact
+                  Let&apos;s Talk
                 </button>
                 <div className="sm:hidden">
                   <Disclosure.Button className="text-gray-400 hover:text-green-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
