@@ -4,6 +4,7 @@ import SectionA from '@/components/About-us/SectionA'
 import SectionB from '@/components/About-us/SectionB'
 import SectionC from '@/components/About-us/SectionC'
 import TeamSection from '@/components/About-us/TeamSection'
+import ContactSection from '@/components/About-us/ContactSection'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <SectionB />
         <SectionC />
         <TeamSection />
+        <ContactSection />
 
 
         
