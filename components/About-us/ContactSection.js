@@ -14,7 +14,7 @@ const ContactSection = () => {
         {/* Left Column (2/3 width) */}
         <div className="md:w-2/3 text-center md:text-left mb-8 md:mb-0">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-[#7FB000] mb-4">
-            LET'S GET YOUR PROJECT STARTED
+            LET&apos;S GET YOUR PROJECT STARTED
           </h1>
           {/* Add more content if needed */}
         </div>
