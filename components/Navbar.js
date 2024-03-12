@@ -105,7 +105,7 @@ export default function Navbar() {
                   scrolling ? 'bg-green-500 text-white' : 'bg-[#7FB000] text-white'
                 } hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-white`}
               >
-                Contact
+                Let&apos;s Talk
               </button>
             </div>
           </Disclosure.Panel>
