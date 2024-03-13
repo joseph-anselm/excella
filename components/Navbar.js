@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'What we do', href: '/what-we-do', current: false },
   { name: 'Who we are', href: '/who-we-are', current: false },
-  { name: 'Projects', href: '#', current: false },
+  { name: 'Contact us', href: '/contact-us', current: false },
 ];
 
 function classNames(...classes) {
