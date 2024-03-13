@@ -10,7 +10,9 @@ const SectionA = () => {
         {/* Title */}
         <h1 className="text-[#061956] text-3xl font-bold mb-8">WHY CHOOSE US?</h1>
 
-        {/* Additional content goes here */}
+        <p>
+        Choose Excella Energy Services for superior mud logging, wellbore cleaning, and brine filtration solutions. With expertise in seamless operations and preventing equipment damage, we deliver efficient services backed by cutting-edge equipment and industry-leading skills. Trust Excella for reliable, optimized well performance in Nigeria&apos;s oil and gas sector.   
+        </p>
       </div>
     </section>
   );
