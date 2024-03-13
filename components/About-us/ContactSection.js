@@ -5,7 +5,7 @@ const ContactSection = () => {
     <div className="container mx-auto py-16 px-4 md:px-8 lg:px-16 xl:px-32">
       <section
         className="relative bg-cover bg-center py-16 px-4 md:px-8 lg:px-16 xl:px-32"
-        style={{ backgroundImage: `url('/images/excella-img5.jpg')` }}
+        style={{ backgroundImage: `url('/images/excella-img6.jpg')` }}
       >
         {/* Image Overlay */}
         <div className="absolute inset-0 bg-black opacity-70"></div>
