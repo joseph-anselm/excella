@@ -113,8 +113,8 @@ const ContactUs = () => {
             <div className="flex items-center space-x-2">
               <FaMapMarkerAlt className="text-gray-600" />
               <div>
-                <h2 className="text-gray-800 font-bold">Excella Energy Services Ltd</h2>
-                <p className="text-gray-600">Head Office</p>
+                <h2 className="text-[#7FB000] font-[800]">Excella Energy Services Ltd</h2>
+                <p className="text-gray-600 font-[800]">Head Office</p>
                 <p className="text-gray-600">Plot 302c Port Harcourt/Aba Road,</p>
                 <p className="text-gray-600">Port Harcourt, Rivers State,</p>
                 <p className="text-gray-600">Nigeria</p>

@@ -6,7 +6,7 @@ const ContactUsHeader = () => {
       {/* Header */}
       <div
         className="relative h-[400px] max-h-[400px] bg-cover bg-center relative"
-        style={{ backgroundImage: `url('/images/contact-us-header.jpg')` }}
+        style={{ backgroundImage: `url('/images/excella-img1.jpg')` }}
       >
         {/* Image Overlay */}
         <div className="absolute inset-0 bg-black opacity-60"></div>
