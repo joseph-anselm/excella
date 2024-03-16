@@ -6,7 +6,7 @@ const SectionB = () => {
       <div className="container mx-auto">
         {/* Title and Paragraph Text */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#061956] mb-4">Section Title</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#061956] mb-4">OUR EQUIPMENT</h2>
           <p className="text-lg text-gray-600">
           EESL houses cutting-edge equipment that exceeds client expectations, readily available for your needs.
           </p>
