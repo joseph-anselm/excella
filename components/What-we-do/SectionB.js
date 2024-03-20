@@ -16,7 +16,7 @@ const SectionB = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* First Column */}
           <div className="flex flex-col items-center bg-white p-8 rounded-lg shadow-md">
-            <img src="/images/image1.jpg" alt="Image 1" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src="/images/Dual-Vessel-Filter.jpg" alt="Image 1" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-bold text-[#061956] mb-2">Dual Vessel Filter Unit</h3>
             <p className="text-gray-600 text-justify">Parker’s dual vessel cartridge / bag filter unit (TDW) is the most commonly used cartridge filter unit in the oil field sector. It offers a cost-effective way to clean common oilfield fluids</p>
           </div>
