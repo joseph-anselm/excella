@@ -23,21 +23,21 @@ const SectionB = () => {
 
           {/* Second Column */}
           <div className="flex flex-col items-center bg-white p-8 rounded-lg shadow-md">
-            <img src="/images/image2.jpg" alt="Image 2" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src="/images/Dust-Free-DE-Dosing-System- (1).png" alt="Image 2" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-bold text-[#061956] mb-2">Dust Free DE Dosing System</h3>
             <p className="text-gray-600 text-justify">Dutch Filtration has developed the DFDU (Dust free dosing unit) , for safety of personnel and working environment, in line with HSE requirements. The Diatomaceous Earth DFDU System is designed to feed.</p>
           </div>
 
           {/* Third Column */}
           <div className="flex flex-col items-center bg-white p-8 rounded-lg shadow-md">
-            <img src="/images/image3.jpg" alt="Image 3" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src="/images/Pleated-absolute-filter-cartridge-thermally-bonded (1).png" alt="Image 3" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-bold text-[#061956] mb-2">Absolute Pleated Filter Cartridge</h3>
             <p className="text-gray-600 text-justify">Features Absolute Pleated Filter Cartridge Absolute rating of Beta 5000 (99.98% efficiency )for reliable results in any critical application. Provides significantly greater dirt holding than string wound and spun bonded elements. Improved</p>
           </div>
 
           {/* Fourth Column */}
           <div className="flex flex-col items-center bg-white p-8 rounded-lg shadow-md">
-            <img src="/images/image4.jpg" alt="Image 4" className="w-full h-48 object-cover rounded-lg mb-4" />
+            <img src="/images/high-flow-pleated-filter-element-500x500 (1).jpg" alt="Image 4" className="w-full h-48 object-cover rounded-lg mb-4" />
             <h3 className="text-xl font-bold text-[#061956] mb-2">High Flow Pleated Filter Cartridge</h3>
             <p className="text-gray-600 text-justify">High Flow Pleated Filter Cartridge made of superior materials, have both the advantages of cartridges efficiency and compact and bags convenience. They are the most cost-effective for the wide range of prefiltration especially.</p>
           </div>
