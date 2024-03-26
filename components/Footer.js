@@ -111,18 +111,18 @@ const Footer = () => {
           </div>
         )}
 
-      <div className="bg-gray-800 text-white text-center py-4 relative z-5">
-        <p>&copy; 2023 Excella Energy Services</p>
+<div className="bg-gray-800 text-white text-center py-4 relative z-5">
+      <p className="mb-2">&copy; 2023 Excella Energy Services</p>
 
-        {/* Social Media Icons */}
-        <div className="flex justify-center space-x-4 mt-2">
-          <a href="#" className="text-white hover:text-[#3b5998]"><FaFacebook size={24} /></a>
-          <a href="#" className="text-white hover:text-[#00acee]"><FaTwitter size={24} /></a>
-          <a href="#" className="text-white hover:text-[#e4405f]"><FaInstagram size={24} /></a>
-          <a href="#" className="text-white hover:text-[#0077b5]"><FaLinkedin size={24} /></a>
-          <a href="#" className="text-white hover:text-[#ea4335]"><FaEnvelope size={24} /></a>
-        </div>
+      {/* Quick Links */}
+      <div className="flex justify-center space-x-4">
+        <a href="/What-we-do" className="text-[#7FB000] hover:text-[#9ebd4f]">Services</a>
+        <span className="text-gray-400">|</span>
+        <a href="/Who-we-are" className="text-[#7FB000] hover:text-[#9ebd4f]">About Us</a>
+        <span className="text-gray-400">|</span>
+        <a href="https://webmail.excellaenergy.com" className="text-[#7FB000] hover:text-[#9ebd4f]">Staff Email</a>
       </div>
+    </div>
     </footer>
   );
 };
