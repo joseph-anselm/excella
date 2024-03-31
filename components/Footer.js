@@ -120,7 +120,7 @@ const Footer = () => {
         <span className="text-gray-400">|</span>
         <a href="/Who-we-are" className="text-[#7FB000] hover:text-[#9ebd4f]">About Us</a>
         <span className="text-gray-400">|</span>
-        <a href="https://webmail.excellaenergy.com" className="text-[#7FB000] hover:text-[#9ebd4f]">Staff Email</a>
+        <a href="https://webmail-p279.web-hosting.com/" className="text-[#7FB000] hover:text-[#9ebd4f]">Staff Email</a>
       </div>
     </div>
     </footer>
